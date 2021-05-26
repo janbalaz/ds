@@ -1,6 +1,10 @@
-def binary_search(elem, arr):
+from typing import List
+
+
+def binary_search(elem: int, arr: List[int]) -> int:
     """
     Searches for the `elem` position in `arr`.
+    O(log n)
 
     :param elem: an element which we search for in `arr`
     :param arr: a sorted list of integers
